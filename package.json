@@ -2,5 +2,8 @@
   "name": "grpc-node",
   "version": "0.0.1",
   "description": "grpc-node 실습",
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": [
+    "grpc-node-js"
+  ]
 }
