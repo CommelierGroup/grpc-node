@@ -5,5 +5,8 @@
   "license": "MIT",
   "workspaces": [
     "grpc-node-js"
-  ]
+  ],
+  "dependencies": {
+    "@grpc/grpc-js": "^1.9.13"
+  }
 }
