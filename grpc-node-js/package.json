@@ -1,5 +1,8 @@
 {
   "name": "grpc-node",
   "version": "1.0.0",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "prepare": "cp ../protos/*.proto ."
+  }
 }
