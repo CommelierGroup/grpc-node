@@ -2,6 +2,7 @@
   "name": "grpc-node",
   "version": "1.0.0",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "prepare": "cp ../protos/*.proto ."
   },
