@@ -1,9 +1,8 @@
 import grpc from '@grpc/grpc-js'
 import protoLoader from '@grpc/proto-loader'
-import path from 'node:path'
 
 // Protobuf 컴파일
-const packageDefinition = protoLoader.loadSync(path.resolve('..', 'protos', 'user.proto'))
+const packageDefinition = protoLoader.loadSync('../../packages/protos/user.proto')
 const packageObject = grpc.loadPackageDefinition(packageDefinition)
 
 // client 생성
