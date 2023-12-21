@@ -2,7 +2,7 @@ import grpc from '@grpc/grpc-js'
 import protoLoader from '@grpc/proto-loader'
 
 // Protobuf 컴파일
-const packageDefinition = protoLoader.loadSync('../protos/user.proto')
+const packageDefinition = protoLoader.loadSync('../../packages/protos/user.proto')
 const packageObject = grpc.loadPackageDefinition(packageDefinition)
 
 // gRPC 서버 생성
