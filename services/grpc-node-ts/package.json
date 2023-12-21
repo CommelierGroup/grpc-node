@@ -1,0 +1,15 @@
+{
+  "name": "grpc-node-ts",
+  "version": "1.0.0",
+  "scripts": {
+    "start:server": "ts-node server.ts",
+    "start:client": "ts-node client.ts"
+  },
+  "dependencies": {
+    "@grpc-node/protos": "workspace:^",
+    "@grpc/grpc-js": "^1.9.13"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
