@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start:server": "node server.js"
+    "start:server": "node server.js",
+    "start:client": "node client.js"
   },
   "dependencies": {
     "@grpc/grpc-js": "^1.9.13",
