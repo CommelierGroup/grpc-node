@@ -1,0 +1,3 @@
+packages:
+  - 'packages/*' # 공통 패키지 정의
+  - 'services/*' # 서비스 정의
