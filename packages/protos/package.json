@@ -1,0 +1,12 @@
+{
+  "name": "@grpc-node/protos",
+  "version": "1.0.0",
+  "scripts": {
+    "build:proto": "protoc --plugin=./node_modules/.bin/protoc-gen-ts_proto --ts_proto_out=. ./user.proto --ts_proto_opt=outputServices=grpc-js,env=node,esModuleInterop=true"
+  },
+  "devDependencies": {
+    "@grpc/grpc-js": "^1.9.13",
+    "protobufjs": "^7.2.5",
+    "ts-proto": "^1.165.2"
+  }
+}
